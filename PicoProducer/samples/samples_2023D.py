@@ -86,13 +86,13 @@ samples  = [
   
   # SINGLE MUON
   D('Data','Muon0_v1',"/Muon0/Run2023D-22Sep2023_v1-v1/NANOAOD",
-    store=storage,url=url,files=filelist,opts=opts,channels=["skim*",'mutau','mumu','emu','mumutau','mumettau']),
+    store=storage,url=url,files=filelist,opts=opts,channels=["skim*",'mutau*','mumu','emu','mumutau','mumettau']),
   D('Data','Muon0_v2',"/Muon0/Run2023D-22Sep2023_v2-v1/NANOAOD",
-    store=storage,url=url,files=filelist,opts=opts,channels=["skim*",'mutau','mumu','emu','mumutau','mumettau']),
+    store=storage,url=url,files=filelist,opts=opts,channels=["skim*",'mutau*','mumu','emu','mumutau','mumettau']),
   D('Data','Muon1_v1',"/Muon1/Run2023D-22Sep2023_v1-v1/NANOAOD",
-    store=storage,url=url,files=filelist,opts=opts,channels=["skim*",'mutau','mumu','emu','mumutau','mumettau']),
+    store=storage,url=url,files=filelist,opts=opts,channels=["skim*",'mutau*','mumu','emu','mumutau','mumettau']),
   D('Data','Muon1_v2',"/Muon1/Run2023D-22Sep2023_v2-v1/NANOAOD",
-    store=storage,url=url,files=filelist,opts=opts,channels=["skim*",'mutau','mumu','emu','mumutau','mumettau']),
+    store=storage,url=url,files=filelist,opts=opts,channels=["skim*",'mutau*','mumu','emu','mumutau','mumettau']),
    
   
   # SINGLE ELECTRON
